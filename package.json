@@ -8,6 +8,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
+    "prepare": "npm run build",
     "build": "tsc",
     "check": "tsc --noEmit",
     "lint": "eslint . --max-warnings=0",
