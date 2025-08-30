@@ -6,6 +6,9 @@
   "description": "A strapi email provider plugin for sending emails with resend",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rimraf dist",
     "prepare": "npm run build",
