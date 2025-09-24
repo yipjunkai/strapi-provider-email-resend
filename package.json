@@ -1,7 +1,7 @@
 {
   "name": "strapi-provider-email-resend",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Yip Jun Kai (https://yipjunkai.com)",
   "description": "A strapi email provider plugin for sending emails with resend",
