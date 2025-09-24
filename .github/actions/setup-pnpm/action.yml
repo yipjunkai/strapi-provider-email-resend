@@ -1,0 +1,16 @@
+name: Setup node and pnpm
+description: Setup node and pnpm
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v4
+    - uses: pnpm/action-setup@v4
+      name: Install pnpm
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: "pnpm"
+    - name: Install dependencies
+      shell: bash
+      run: pnpm install --frozen-lockfile
