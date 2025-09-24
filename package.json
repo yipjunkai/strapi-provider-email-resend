@@ -1,5 +1,6 @@
 {
   "name": "strapi-provider-email-resend",
+  "type": "module",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Yip Jun Kai",
@@ -10,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist tsconfig.tsbuildinfo",
     "prepare": "npm run build",
     "build": "tsc",
     "check": "tsc --noEmit",
