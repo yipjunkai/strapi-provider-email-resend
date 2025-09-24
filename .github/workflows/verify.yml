@@ -11,6 +11,8 @@ on:
     paths-ignore:
       - "**/*.md"
 
+  workflow_call:
+
 jobs:
   type-check:
     name: TypeScript Type Checking
