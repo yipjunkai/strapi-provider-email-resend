@@ -1,13 +1,6 @@
-# strapi-provider-email-resend
+# Strapi Provider Email Resend
 
-A Strapi email provider plugin for sending emails with [Resend](https://resend.com).
-
-## Features
-
-- Clean, modern integration with [Resend](https://resend.com)
-- Minimal configuration required—just your API key
-- Built with Strapi v5 support
-- MIT Licensed
+`strapi-provider-email-resend` is a Strapi email provider plugin for sending emails with [Resend](https://resend.com).
 
 ## Installation
 
