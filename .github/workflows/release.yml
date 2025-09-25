@@ -30,3 +30,5 @@ jobs:
       - uses: ./.github/actions/setup-pnpm
       - name: Release
         run: pnpm release --tag ${{ inputs.tag }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
