@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-resend",
+  "name": "@yipjunkai/strapi-provider-email-resend",
   "type": "module",
   "version": "0.0.1",
   "license": "MIT",

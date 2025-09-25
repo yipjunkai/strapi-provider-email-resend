@@ -1,11 +1,11 @@
 # Strapi Provider Email Resend
 
-`strapi-provider-email-resend` is a Strapi email provider plugin for sending emails with [Resend](https://resend.com).
+`@yipjunkai/strapi-provider-email-resend` is a Strapi email provider plugin for sending emails with [Resend](https://resend.com).
 
 ## Installation
 
 ```bash
-pnpm install strapi-provider-email-resend
+pnpm install @yipjunkai/strapi-provider-email-resend
 ```
 
 ## Configuration
@@ -17,7 +17,7 @@ export default ({ env }) => ({
   // ...
   email: {
     config: {
-      provider: 'strapi-provider-email-resend',
+      provider: '@yipjunkai/strapi-provider-email-resend',
       providerOptions: {
         apiKey: env('RESEND_API_KEY'),
       },
